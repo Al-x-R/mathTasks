@@ -123,12 +123,32 @@ function differenceModulus(a, b) {
     return Math.abs(a - b)
 }
 
-console.log(differenceModulus(22,10))
+console.log(differenceModulus(22, 10))
 
 function differenceModulus2(a, b) {
     let c = a - b
     return Math.abs(c)
 }
 
-console.log(differenceModulus2(3,5))
+console.log(differenceModulus2(3, 5))
 
+// Дан массив arr. Найдите среднее арифметическое его элементов.
+
+function average(arr) {
+    let sum = 0
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i]
+    }
+    return sum / arr.length
+}
+
+console.log(average([12, 15, 20, 25, 59, 79]))
+
+
+// Напишите скрипт, который будет находить факториал числа
+
+function factorial(n) {
+    return (n !== 1) ? n * factorial(n - 1) : 1;
+}
+
+console.log(factorial(5))
