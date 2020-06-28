@@ -94,3 +94,25 @@ function getMin(arr) {
 }
 
 console.log(getMin(arr1))
+
+
+// Выведите на экран случайное целое число от 1 до 100.
+
+function getRandom() {
+    return Math.round(Math.random() * 100)
+}
+
+console.log(getRandom())
+
+// Заполните массив 10-ю случайными целыми числами.
+
+const arrRandom = []
+
+function getRandomArr() {
+    for (let i = 0; i < 10; i++) {
+        arrRandom.push(Math.round(Math.random() * 10))
+    }
+    return arrRandom
+}
+
+console.log(getRandomArr())
