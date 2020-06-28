@@ -78,3 +78,19 @@ function squareRootRoundedOff2(num) {
 }
 
 console.log(squareRootRoundedOff2(587))
+
+// Нахождение максимального и минимального числа
+
+const arr1 = [4, -2, 5, 19, -130, 0, 10]
+
+function getMax(arr) {
+    return Math.max.apply(null, arr);
+}
+
+console.log(getMax(arr1))
+
+function getMin(arr) {
+    return Math.min.apply(null, arr);
+}
+
+console.log(getMin(arr1))
