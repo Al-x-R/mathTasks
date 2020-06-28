@@ -116,3 +116,19 @@ function getRandomArr() {
 }
 
 console.log(getRandomArr())
+
+// Даны переменные a и b. Найдите найдите модуль разности a и b.
+
+function differenceModulus(a, b) {
+    return Math.abs(a - b)
+}
+
+console.log(differenceModulus(22,10))
+
+function differenceModulus2(a, b) {
+    let c = a - b
+    return Math.abs(c)
+}
+
+console.log(differenceModulus2(3,5))
+
